@@ -1,0 +1,9 @@
+syntax on
+set encoding=utf-8
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set autoindent
+set number
+set ruler
