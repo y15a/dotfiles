@@ -117,3 +117,10 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 alias mongod='mongod --config /usr/local/etc/mongod.conf'
 
+## PyEnv related setup
+eval "$(pyenv virtualenv-init -)"
+export PYENV_ROOT="${HOME}/.pyenv"
+if [ -d "${PYENV_ROOT}" ]; then
+    export PATH=${PYENV_ROOT}/bin:$PATH
+    eval "$(pyenv init -)"
+fi
