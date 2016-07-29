@@ -114,6 +114,7 @@ source ~/.path
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/Users/yoshi/lib/go_appengine:$PATH"
 
 alias mongod='mongod --config /usr/local/etc/mongod.conf'
 
